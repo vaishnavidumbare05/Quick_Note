@@ -1,0 +1,26 @@
+.home-img{
+    Width:40px;
+    height:40px;
+    position: fixed;
+    left:40px;
+    top:40px;
+    cursor: pointer;
+}
+.home-img:hover{
+    transition: 0.4s;
+    transform:scale(1.2);
+}
+
+@media screen  and (max-width:500px) {
+    
+    .home-img{
+        Width:30px;
+        height:30px;
+        position: fixed;
+        left:80vw;
+        top:90vh;
+        cursor: pointer;
+      
+    }
+    
+}
